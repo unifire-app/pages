@@ -9,6 +9,8 @@ Aspect Lua Template
 
 **Aspect** is a compiling templating engine for Lua and OpenResty.
 
+<img align="right" src="./docs/aspect.png">
+
 The key-features are...
 * _Well known_: The most popular syntax is used - 
   [Twig](https://twig.symfony.com/doc/2.x/templates.html) compatible, [Jinja](https://jinja.palletsprojects.com/en/2.10.x/templates/)/[Liquid](https://shopify.github.io/liquid/) like.
