@@ -4,4 +4,6 @@ destination: ./build
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io/"
+plugins:
+  - jekyll-include-cache
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
