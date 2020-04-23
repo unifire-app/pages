@@ -6,8 +6,8 @@ markdown: kramdown
 url: "https://unifire-app.github.io/"
 remote_theme: fongandrew/hydeout
 # theme: minima
-# header_pages:
+header_pages:
 #   - url: docs/syntax.md
 #     title: Syntax
-#   - docs/api.md
-#   - docs/cli.md
+  - docs/api.md
+  - docs/cli.md
