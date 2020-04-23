@@ -6,6 +6,7 @@ encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io"
 remote_theme: allejo/jekyll-docs-theme@v1.0.0-beta.4
+show_in_menu: false
 links:
   header:
     - title: GitHub
