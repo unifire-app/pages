@@ -4,10 +4,10 @@ destination: ./build
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io/"
-# remote_theme: poole/hyde
-theme: minima
-header_pages:
-  - url: docs/syntax.md
-    title: Syntax
-  - docs/api.md
-  - docs/cli.md
+remote_theme: fongandrew/hydeout
+# theme: minima
+# header_pages:
+#   - url: docs/syntax.md
+#     title: Syntax
+#   - docs/api.md
+#   - docs/cli.md
