@@ -23,11 +23,13 @@ links:
       url: https://github.com/unifire-app/pages/issues?state=open
 # remote_theme: fongandrew/hydeout
 # theme: minima
-# header_pages:
-#   - url: docs/syntax.md
-#     title: Syntax
-#   - docs/api.md
-#   - docs/cli.md
+pages:
+  - url: docs/syntax.md
+    title: Syntax
+  - url: docs/api.md
+    title: API
+  - url: docs/cli.md
+    title: CLI
 
 # sidebar_home_link:  true
 # defaults:
