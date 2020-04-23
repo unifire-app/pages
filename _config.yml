@@ -6,3 +6,7 @@ markdown: kramdown
 url: "https://unifire-app.github.io/"
 # remote_theme: poole/hyde
 theme: minima
+header_pages:
+  - docs/syntax.md
+  - docs/api.md
+  - docs/cli.md
