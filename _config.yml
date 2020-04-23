@@ -1,11 +1,18 @@
 name: "Aspect Lua Template"
 description: "Aspect is a compiling template engine for Lua and LuaJIT (OpenResty, Tarantool) with syntax Twig/Jinja/Django/Liquid."
-# destination: ./build
 tagline: "Template Engine"
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io"
 remote_theme: bzick/jekyll-docs-theme@v1.0.0-beta.5
+
+license:
+  software: BSD 3 Clause
+  software_url: https://opensource.org/licenses/BSD-3-Clause
+
+  docs: CC BY 3.0
+  docs_url: https://creativecommons.org/licenses/by/3.0/
+
 links:
   pages:
     - title: Syntax
@@ -23,13 +30,3 @@ links:
     - title: Issues
       icon: bug
       url: https://github.com/unifire-app/pages/issues?state=open
-# remote_theme: fongandrew/hydeout
-# theme: minima
-
-# sidebar_home_link:  true
-# defaults:
-#   -
-#     scope:
-#       path: "" # an empty string here means all files in the project
-#     values:
-#       layout: "default"
