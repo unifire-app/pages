@@ -5,7 +5,7 @@ tagline: "Template Engine"
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io"
-remote_theme: bzick/jekyll-docs-theme@v1.0.0-beta.4
+remote_theme: bzick/jekyll-docs-theme@v1.0.0-beta.5
 links:
   pages:
     - title: Syntax
