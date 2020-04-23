@@ -59,7 +59,7 @@ Aspect also has a [console tool](./docs/cli.md) for rendering data
 $ aspect /path/to/data.json /path/to/template.tpl
 ```
 
-[API Documentation](./docs/api.md)
+API Documentation
 --------------------
 
 * [Installation](./docs/installation.md)
@@ -70,7 +70,7 @@ $ aspect /path/to/data.json /path/to/template.tpl
 * [Extending](./docs/api.md#extending)
 * [Iterator and countable objects](./docs/api.md#iterator-and-countable-objects)
 
-[Syntax](./docs/syntax.md)
+Syntax
 ------
 
 * [Variables](./docs/syntax.md#variables)
