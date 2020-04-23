@@ -5,9 +5,11 @@ tagline: "Template Engine"
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io"
-remote_theme: allejo/jekyll-docs-theme@v1.0.0-beta.4
-show_in_menu: false
+remote_theme: bzick/jekyll-docs-theme@v1.0.0-beta.4
 links:
+  pages:
+    - title: Syntax
+      url: /docs/syntax
   header:
     - title: GitHub
       icon: github
@@ -23,13 +25,6 @@ links:
       url: https://github.com/unifire-app/pages/issues?state=open
 # remote_theme: fongandrew/hydeout
 # theme: minima
-pages:
-  - url: docs/syntax.md
-    title: Syntax
-  - url: docs/api.md
-    title: API
-  - url: docs/cli.md
-    title: CLI
 
 # sidebar_home_link:  true
 # defaults:
