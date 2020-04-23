@@ -4,4 +4,5 @@ destination: ./build
 encoding: UTF-8
 markdown: kramdown
 url: "https://unifire-app.github.io/"
-remote_theme: poole/hyde
+# remote_theme: poole/hyde
+theme: minima
