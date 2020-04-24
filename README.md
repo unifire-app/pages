@@ -1,5 +1,8 @@
-Aspect Lua Template
-===================
+layout: full
+homepage: true
+disable_anchors: true
+description: Aspect is a compiling template engine for Lua and LuaJIT.
+---
 
 [![Build Status](https://travis-ci.org/unifire-app/aspect.svg?branch=master)](https://travis-ci.org/unifire-app/aspect)
 [![codecov](https://codecov.io/gh/unifire-app/aspect/branch/master/graph/badge.svg)](https://codecov.io/gh/unifire-app/aspect)
