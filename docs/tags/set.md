@@ -3,6 +3,9 @@ Tag `set`
 
 <!-- {% raw %} -->
 
+[⬅︎ to tags](./../tags.md)
+
+
 Inside code blocks you can also assign values to variables.
 Assignments use the `set` tag and can have multiple targets.
 
