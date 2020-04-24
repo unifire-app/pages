@@ -22,9 +22,9 @@ license:
 links:
   pages:
     - title: Syntax
-      url: /syntax
-    - title: Tags
-      url: /tags
+      url: /syntax.md
+    - title: Tagtags.mds
+      url: /tags.md
     - title: Filters
       url: /filters
     - title: Funcs
@@ -42,10 +42,6 @@ links:
       url: https://codecov.io/gh/unifire-app/aspect
     - title: '<img src="https://img.shields.io/badge/LuaRocks-Aspect-blue" />'
       url: https://luarocks.org/modules/unifire/aspect
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/unifire-app/pages
   footer:
     - title: GitHub
       icon: github

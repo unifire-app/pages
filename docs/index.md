@@ -5,15 +5,11 @@ disable_anchors: true
 description: Aspect is a compiling template engine for Lua and LuaJIT.
 ---
 
-[![Build Status](https://travis-ci.org/unifire-app/aspect.svg?branch=master)](https://travis-ci.org/unifire-app/aspect)
-[![codecov](https://codecov.io/gh/unifire-app/aspect/branch/master/graph/badge.svg)](https://codecov.io/gh/unifire-app/aspect)
-[![Luarocks](https://img.shields.io/badge/LuaRocks-Aspect-blue)](https://luarocks.org/modules/unifire/aspect)
-
 <!-- {% raw %} -->
 
 **Aspect** is a compiling templating engine for Lua and OpenResty.
 
-<img align="right" src="./aspect.png" width="200">
+<!-- <img align="right" src="./aspect.png" width="200"> -->
 
 
 ## Synopsis
@@ -43,6 +39,8 @@ description: Aspect is a compiling template engine for Lua and LuaJIT.
 </html>
 ```
 
+<div class="row">
+<div class="col-lg-6" markdown="1">
 
 ## Installation
 {:.mt-lg-0}
@@ -77,6 +75,10 @@ Aspect also has a [console tool](./docs/cli.md) for rendering data
 ```bash
 $ aspect /path/to/data.json /path/to/template.tpl
 ```
+
+</div>
+</div>
+
 
 API Documentation
 --------------------
