@@ -22,9 +22,9 @@ license:
 links:
   pages:
     - title: Syntax
-      url: /syntax.md
-    - title: Tagtags.mds
-      url: /tags.md
+      url: /syntax
+    - title: Tags
+      url: /tags
     - title: Filters
       url: /filters
     - title: Funcs
@@ -50,6 +50,11 @@ links:
     - title: Issues
       icon: bug
       url: https://github.com/unifire-app/pages/issues?state=open
+  homepage:
+    - title: View on GitHub
+      icon: github
+      brand: true
+      url: https://github.com/unifire-app/pages
 
 icons:
-  favicon: docs/aspect.png
+  favicon: aspect.png
