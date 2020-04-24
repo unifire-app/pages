@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tag `set`
+title: Tag set
 ---
 
 <!-- {% raw %} -->
