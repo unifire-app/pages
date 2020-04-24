@@ -5,7 +5,7 @@ title: Tag set
 
 <!-- {% raw %} -->
 
-[← to tags](./../tags.md)
+[← < ❮ to tags](./../tags.md)
 
 
 Inside code blocks you can also assign values to variables.
