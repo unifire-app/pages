@@ -67,6 +67,9 @@ package.path = '/path/to/aspect/src/?.lua;' .. package.path
   - [Functions](funcs.md)
   - [Tests](tests.md)
 
+</div>
+<div class="col-lg-6" markdown="1">
+
 ## Features
 {:.mt-lg-0}
 
