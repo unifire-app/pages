@@ -51,7 +51,21 @@ The recommended way to install Aspect is via LuaRocks:
 luarocks install aspect
 ```
 
-Or add `src/?.lua` to `package.path`.
+Or add `src/?.lua` to `package.path`:
+
+```lua
+package.path = '/path/to/aspect/src/?.lua;' .. package.path
+```
+
+## Documentation links
+
+- [Lua API](api.md)
+- **Template**
+  - [Syntax](syntax.md)
+  - [Tags](tags.md)
+  - [Filters](filters.md)
+  - [Functions](funcs.md)
+  - [Tests](tests.md)
 
 ## Features
 {:.mt-lg-0}
@@ -78,111 +92,4 @@ $ aspect /path/to/data.json /path/to/template.tpl
 
 </div>
 </div>
-
-
-API Documentation
---------------------
-
-* [Installation](./docs/installation.md)
-* [Basic Usage](./docs/api.md#basic-api-usage)
-* [Configuration](./docs/api.md#options)
-* [Cache](./docs/api.md#cache)
-* [Loaders](./docs/api.md#loaders)
-* [Extending](./docs/api.md#extending)
-* [Iterator and countable objects](./docs/api.md#iterator-and-countable-objects)
-
-Syntax
-------
-
-* [Variables](./docs/syntax.md#variables)
-* [Expression](./docs/syntax.md#expressions)
-* [Filters](./docs/syntax.md#filters)
-* [Functions](./docs/syntax.md#functions)
-* [Named Arguments](./docs/syntax.md#named-arguments)
-* [Control Structure](./docs/syntax.md#control-structure)
-* [Comments](./docs/syntax.md#comments)
-* [Template Inheritance](./docs/syntax.md#template-inheritance)
-* [Macros](./docs/syntax.md#macros)
-* [Expressions](./docs/syntax.md#expressions)
-* [Operators](./docs/syntax.md#operators)
-* [Whitespace control](./docs/syntax.md#whitespace-control)
-* [HTML Escaping](./docs/syntax.md#html-escaping)
-
-Tags
-----
-
-* [set](./docs/tags/set.md) — assign values to variables
-* [do](./docs/tags/do.md) 
-* [if, elseif, elif, else](./docs/tags/if.md) — conditional statement
-* [for, else, break](./docs/tags/for.md) — loop over each item in a sequence.
-* [macro](./docs/tags/macro.md), [import](./docs/tags/macro.md#importing-macros), [from](./docs/tags/macro.md#importing-macros)
-* [include](./docs/tags/include.md) — includes a template and returns the rendered content
-* [extends](./docs/tags/extends.md), [block](./docs/tags/extends.md#block), [use](./docs/tags/extends.md#use) - 
-  template inheritance ([read more](./docs/syntax.md#template-inheritance))
-* [autoescape](./docs/tags/autoescape.md)
-* [verbatim](./docs/tags/verbatim.md)
-* [with](./docs/tags/with.md)
-* apply (todo)
-* embed (todo)
-
-
-Filters
--------
-
-* [abs](./docs/filters/abs.md)
-* [batch(size)](./docs/filters/batch.md)
-* [column(column)](./docs/filters/columns.md)
-* [date(format)](./docs/filters/date.md)
-* [date_modify(offset)](./docs/filters/date_modify.md)
-* [escape(type), e(type)](./docs/filters/escape.md)
-* [default(value, boolean)](./docs/filters/default.md)
-* [first](./docs/filters/first.md)
-* [last](./docs/filters/last.md)
-* [format(...)](./docs/filters/format.md)
-* [join(delim, last_delim)](./docs/filters/join.md)
-* [json_encode](./docs/filters/json_encode.md)
-* [keys](./docs/filters/keys.md)
-* [length](./docs/filters/length.md)
-* [lower](./docs/filters/lower.md)
-* [upper](./docs/filters/lower.md)
-* [merge(items)](./docs/filters/merge.md)
-* [nl2br](./docs/filters/nl2br.md)
-* [raw](./docs/filters/raw.md)
-* [replace()](./docs/filters/replace.md)
-* [split(delimiter, limit)](./docs/filters/split.md)
-* [striptags](./docs/filters/striptags.md)
-* [trim](./docs/filters/trim.md)
-
-Functions
----------
-
-* [parent()](./docs/tags/extends.md#parent)
-* [include()](./docs/funcs/include.md)
-* [block(name, template)](./docs/tags/extends.md#block-function)
-* [range(low, high, step)](./docs/funcs/range.md)
-* [date(date)](./docs/funcs/date.md)
-* [dump()](./docs/funcs/dump.md)
-
-Tests
------
-
-* [is defined](./docs/tests/defined.md)
-* [is odd](./docs/tests/odd.md)
-* [is even](./docs/tests/even.md)
-* [is iterable](./docs/tests/iterable.md)
-* [is empty](./docs/tests/empty.md)
-* [is divisible by()](./docs/tests/divisibleby.md)
-* [is null, is nil](./docs/tests/null.md)
-* [is same as()](./docs/tests/sameas.md)
-
-Extending
----------
-
-* [Add tags](./docs/api.md#add-tags)
-* [Add filter](./docs/api.md#add-filters)
-* [Add functions](./docs/api.md#add-functions)
-* [Add tests](./docs/api.md#add-tests)
-* [Add operators](./docs/api.md#add-operators)
-* [Configure behaviors](./docs/api.md#behaviors)
-
 <!-- {% endraw %} -->
