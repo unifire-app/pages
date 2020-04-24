@@ -30,3 +30,6 @@ links:
     - title: Issues
       icon: bug
       url: https://github.com/unifire-app/pages/issues?state=open
+
+icons:
+  favicon: docs/aspect.png
