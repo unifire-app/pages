@@ -1,5 +1,7 @@
-Tag `set`
-=========
+---
+layout: page
+title: Tag `set`
+---
 
 <!-- {% raw %} -->
 
