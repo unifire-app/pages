@@ -13,24 +13,10 @@ description: Aspect is a compiling template engine for Lua and LuaJIT.
 
 **Aspect** is a compiling templating engine for Lua and OpenResty.
 
-<img align="right" src="./docs/aspect.png" width="200">
+<img align="right" src="./aspect.png" width="200">
 
-The key-features are...
-* _Well known_: The most popular syntax is used - 
-  [Twig](https://twig.symfony.com/doc/2.x/templates.html) compatible, [Jinja](https://jinja.palletsprojects.com/en/2.10.x/templates/)/[Liquid](https://shopify.github.io/liquid/) like.
-* _Fast_: Aspect compiles templates down to plain optimized Lua code. 
-  Moreover, Lua code compiles into bytecode - the fastest representation of a template.
-* _Secure_: Aspect has a sandbox mode to evaluate all template code. 
-  This allows Aspect to be used as a template language for applications where users may modify the template design.
-* _Flexible_: Aspect is powered by a flexible lexer and parser. 
-  This allows the developer to define their own custom tags, filters, functions and operators, and to create their own DSL.
-* _Supports_ lua 5.1/5.2/5.3 and luajit 2.0/2.1 (with OpenResty)
-* Has [console renderer](./docs/cli.md).
-* No dependencies. Pure Lua. 
-* **[List of all features](./docs/features.md)**
 
-Synopsis
---------
+## Synopsis
 
 ```twig
 <!DOCTYPE html>
@@ -56,6 +42,35 @@ Synopsis
     </body>
 </html>
 ```
+
+
+## Installation
+{:.mt-lg-0}
+
+The recommended way to install Aspect is via LuaRocks:
+
+```bash
+luarocks install aspect
+```
+
+Or add `src/?.lua` to `package.path`.
+
+## Features
+{:.mt-lg-0}
+
+The key-features are...
+* _Well known_: The most popular syntax is used - 
+  [Twig](https://twig.symfony.com/doc/2.x/templates.html) compatible, [Jinja](https://jinja.palletsprojects.com/en/2.10.x/templates/)/[Liquid](https://shopify.github.io/liquid/) like.
+* _Fast_: Aspect compiles templates down to plain optimized Lua code. 
+  Moreover, Lua code compiles into bytecode - the fastest representation of a template.
+* _Secure_: Aspect has a sandbox mode to evaluate all template code. 
+  This allows Aspect to be used as a template language for applications where users may modify the template design.
+* _Flexible_: Aspect is powered by a flexible lexer and parser. 
+  This allows the developer to define their own custom tags, filters, functions and operators, and to create their own DSL.
+* _Supports_ lua 5.1/5.2/5.3 and luajit 2.0/2.1 (with OpenResty)
+* Has [console renderer](./docs/cli.md).
+* No dependencies. Pure Lua. 
+* **[List of all features](./docs/features.md)**
 
 Aspect also has a [console tool](./docs/cli.md) for rendering data
 

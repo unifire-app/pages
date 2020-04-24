@@ -6,6 +6,12 @@ markdown: kramdown
 url: "https://unifire-app.github.io"
 remote_theme: bzick/jekyll-docs-theme
 
+# theme configuration
+
+project:
+  download_url: https://github.com/unifire-app/aspect/releases
+  download_text: Download
+
 license:
   software: BSD 3 Clause
   software_url: https://opensource.org/licenses/BSD-3-Clause
@@ -34,6 +40,8 @@ links:
       url: https://travis-ci.org/unifire-app/aspect
     - title: '<img src="https://codecov.io/gh/unifire-app/aspect/branch/master/graph/badge.svg" />'
       url: https://codecov.io/gh/unifire-app/aspect
+    - title: '<img src="https://img.shields.io/badge/LuaRocks-Aspect-blue" />'
+      url: https://luarocks.org/modules/unifire/aspect
     - title: GitHub
       icon: github
       brand: true
